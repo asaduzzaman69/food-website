@@ -77,7 +77,7 @@ h2{
   
     border-radius: 25px;
     padding-top: 50px;
-    padding-bottom: 50px;
+    
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 50px;
@@ -93,6 +93,7 @@ h2{
     background-color: rgb(0, 0, 36);
 margin-top: 70px;
     padding: 15px 30px;
+
 }
 .white{
      color: azure;
@@ -108,7 +109,29 @@ margin-top: 70px;
     margin-left: 80px;
     margin-right: 80px;
 }
+   
+
+.round-image{
+    border-radius: 50%;
+    border: 5px solid #ddd5c780;
+    width: 130px;
+    height: 130px;
+  
+}
+.flexible{
+    display: flex;
+
+
+}
 .aline2{
     text-align: center;
    
-}
+ }
+ .flex{
+    flex: 1;
+
+ }
+ h3{
+     font-size: 27px;
+     font-weight: 400;
+ }
